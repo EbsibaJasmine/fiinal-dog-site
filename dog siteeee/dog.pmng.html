@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog</title>
+</head>
+<style>
+    .post{
+        position: relative;
+        bottom: 100px;
+        left:550px;
+         font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        color: #f7931e;
+        text-align: center;;
+        display: inline;
+    }
+    .D1C1{
+        position: relative;
+        left: 0px;
+        top: 140px;
+        height: 200px;
+        width: auto;
+    }
+    .human{
+        position: relative;
+        top: 140px;
+        right: 800px;
+        height: 200px;
+        width: auto;
+
+    }
+    .pet{
+         position: relative;
+        bottom: 100px;
+        right: 250px;
+         font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        color: #f7931e;
+        text-align: center;;
+        display: inline;
+
+    }
+    .welcome{
+        position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+        
+    }
+    .name{
+         position: relative;
+        bottom: -150px;
+        right: -90px;
+         font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: #f7931e;
+        text-align: center;;
+        display: inline;
+
+    }
+    .n{
+         position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+
+    }
+    .adopt{
+         position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+        color: #f7931e;
+        text-align: center;;
+        display: inline;
+        right: -90px;
+    }
+    .adopt2{
+         position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+    }
+    .res{
+         position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+        color: #f7931e;
+        text-align: center;;
+        display: inline;
+        right: -90px;
+    }
+    .clss{
+               position: relative;
+        top: 150px;
+        text-align: left;
+        text-decoration: none;
+
+    }
+        .form-label {
+      color: orange;
+      font-weight: bold;
+    }
+    .btn-orange {
+      background-color: orange;
+      color: white;
+      border: none;
+    }
+    .btn-orange:hover {
+      background-color: darkorange;
+    }
+    .hole{
+        position: relative;
+        left: 600px;
+        bottom: 260px;
+    }
+    .info{
+        position: relative;
+        left: 600px;
+        bottom: 270px;
+        color: orange;
+      font-weight: bold;
+
+    }
+    .wel2{
+       position: relative;
+        top: 150px;
+        left: 100px;
+        text-decoration: none;
+        
+
+    }
+
+</style>
+<body>
+    <H1 class="post">POST A PET FOR ADOPTION</H1>
+    <H1 class="pet">ADOPT A PET</H1>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <img src="d1c1-removebg-preview.png" alt="" class="D1C1">
+    <img src="human-removebg-preview.png" alt="" class="human">
+    <p class="welcome" > Welcome to our pet adoption program! Adopting a pet is a wonderful way to bring joy   </p>
+    <p class="wel2">and companionship into your life.</p>
+
+    <h2 class="name">Name: Benefits of Pet Adoption </h2>
+    <p class="n">Provide a loving home to a pet in need <br>Pet Age: Experience the unconditional love of a pet <br> Create lasting memories and cherished moments </p>
+    <h2 class="adopt">Adoption Process</h2>
+    <p class="adopt2">Fill out an adoption application <br> Location: Meet potential pets in person <br> Complete the necessary Paperwork </p>
+    <h2 class="res">Responsbilities</h2>
+    <p class="clss">Type: Adopting a pet comes with responsibilities, including feeding, grooming, regular <br> exercise, and providing medical care.</p>
+    
+    <form>
+        <h3 class="info">Pet Information</h3>
+        <div class="hole">
+             <!-- Name -->
+        <div class="petname" style="margin: 10px;">
+        <label class="form-label">Name:</label>
+        <input type="text" class="form" placeholder="Enter pet's name">
+      </div>
+
+      <!-- Pet Age -->
+      <div class="age"  style="margin: 10px;">
+        <label class="form-label" >Pet Age:</label>
+        <input type="number" class="form" placeholder="Enter pet's age">
+      </div>
+
+      <!-- Picture -->
+      <div class="pic"  style="margin: 10px;">
+        <label class="form-label ">Picture:</label>
+        <input type="file" class="form file" id="petPicture">
+        <label for="petPicture" class="btn btn-orange">Choose a Picture</label>
+      </div>
+
+      <!-- Location -->
+      <div class="loc"  style="margin: 10px;">
+        <label class="form-label">Location:</label>
+        <input type="text" class="form" placeholder="Enter location">
+      </div>
+
+      <!-- Type -->
+      <div class="just" style="padding: 10px;">
+        <label class="form-label">Type:</label>
+        <select class="form-select">
+          <option selected>None</option>
+          <option>Dog</option>
+          <option>Cat</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- Justification -->
+      <div class="loc"  style="margin: 10px;">
+        <label class="form-label">Justification for giving a pet:</label>
+        <textarea class="form" rows="3" placeholder="Write your reason..."></textarea>
+      </div>
+      <!-- submit -->
+      <div class="text-center">
+        <button type="submit" class=" bottonorange">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
